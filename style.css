@@ -1,0 +1,76 @@
+/* Style the navigation menu */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style the navigation links */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Style the active navigation link */
+nav a.active,
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Style the logo */
+nav .logo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Style the container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Style the section headings */
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Style the section content */
+section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* Style the footer links */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Style the footer link on hover */
+footer a:hover {
+  color: #ffd700;
+}
